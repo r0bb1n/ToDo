@@ -41,6 +41,7 @@ export default function App () {
 
   return (
     <div className="App">
+      <h1>ToDo</h1>
       <form onSubmit={handleFormSubmit}>
         <input
         name="todo"
